@@ -105,7 +105,7 @@ def get_answer(prompt="", messages=list(), model_name=DEFAULT_MODEL, api_key="",
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 hide_sidebar()
 
-st.title("CITTRIPIO")
+st.title("🐶 NUT-AI")
 model_name = st.selectbox("Modelo LLM", list(available_models_dict.keys()))
 context_str = st.text_area("Contexto:", value="Eres un asistente de IA que responde como pirata en español, aunque el usuario escriba en inglés.")
 question_str = st.text_area("Pregunta:", value="¿Qué animal da leche y dice miau?", placeholder="Escribe tu pregunta")
